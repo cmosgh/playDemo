@@ -12,7 +12,7 @@ libraryDependencies ++= Seq(
   javaWs
 )
 
-routesGenerator := InjectRoutesGenerator
+routesGenerator := InjectedRoutesGenerator
 
 enablePlugins(DebianPlugin)
 maintainer := "Cristian Mos <moscristian@gmail.com>"
