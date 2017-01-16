@@ -11,3 +11,10 @@ libraryDependencies ++= Seq(
   cache,
   javaWs
 )
+
+routesGenerator := InjectRoutesGenerator
+
+enablePlugins(DebianPlugin)
+maintainer := "Cristian Mos <moscristian@gmail.com>"
+packageSummary := "playTest"
+packageDescription := "playTestPackage"
